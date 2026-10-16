@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1637121516/PATH/delimiter=;
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1637121516/PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1637121516/PATH/value=D\:\\ARM\\bin;D\:\\GMD\\toolchain\\gowin\\build_tools\\bin;D\:\\ARM\\bin;D\:/GMD//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957/jre/bin/server;D\:/GMD//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957/jre/bin;C\:\\Windows\\system32;C\:\\Windows;C\:\\Windows\\System32\\Wbem;C\:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C\:\\Windows\\System32\\OpenSSH\\;C\:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D\:\\cursor\\resources\\app\\bin;D\:\\Matlab\\runtime\\win64;D\:\\Matlab\\bin;C\:\\Program Files\\WireGuard\\;C\:\\Program Files\\dotnet\\;C\:\\Program Files\\Cloudflare\\Cloudflare WARP\\;C\:\\Users\\Nhat\\AppData\\Local\\Microsoft\\WindowsApps;;D\:\\GMD
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1637121516/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1637121516/appendContributed=true

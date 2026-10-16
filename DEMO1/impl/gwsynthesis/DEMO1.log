@@ -1,0 +1,69 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\I2C_Interface.v'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\OV2640_Controller.v'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\OV2640_Register.v'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\cnn_hw_core.sv'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\conv_pool_2d.sv'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\dvi_tx\dvi_tx.v'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\dvp_capture.v'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\gowin_clkdiv\video_clkdiv.v'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\gowin_empu\core_arm_m3.v'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\gowin_pllvr\gowin_pllvr.v'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\gowin_pllvr\video_pll.v'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\gowin_sdpb\gowin_dp_ram.v'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\image_processor.v'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\osd_display.v'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\soc_top.sv'
+Analyzing Verilog file 'D:\FILENEWWWWWWW\DEMO1\src\vga_timing.v'
+Compiling module 'soc_top'("D:\FILENEWWWWWWW\DEMO1\src\soc_top.sv":2)
+Compiling module 'Gowin_PLLVR'("D:\FILENEWWWWWWW\DEMO1\src\gowin_pllvr\gowin_pllvr.v":9)
+Compiling module 'OV2640_Controller'("D:\FILENEWWWWWWW\DEMO1\src\OV2640_Controller.v":3)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("D:\FILENEWWWWWWW\DEMO1\src\OV2640_Controller.v":30)
+WARN  (EX3791) : Expression size 21 truncated to fit in target size 20("D:\FILENEWWWWWWW\DEMO1\src\OV2640_Controller.v":62)
+Compiling module 'OV2640_Registers'("D:\FILENEWWWWWWW\DEMO1\src\OV2640_Register.v":1)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("D:\FILENEWWWWWWW\DEMO1\src\OV2640_Register.v":35)
+Compiling module 'I2C_Interface'("D:\FILENEWWWWWWW\DEMO1\src\I2C_Interface.v":1)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("D:\FILENEWWWWWWW\DEMO1\src\I2C_Interface.v":46)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("D:\FILENEWWWWWWW\DEMO1\src\I2C_Interface.v":116)
+Compiling module 'dvp_capture'("D:\FILENEWWWWWWW\DEMO1\src\dvp_capture.v":1)
+Compiling module 'image_processor'("D:\FILENEWWWWWWW\DEMO1\src\image_processor.v":2)
+Compiling module '**'("D:\FILENEWWWWWWW\DEMO1\src\gowin_empu\core_arm_m3.v":535)
+Compiling module 'cnn_hw_core'("D:\FILENEWWWWWWW\DEMO1\src\cnn_hw_core.sv":5)
+Extracting RAM for identifier 'conv1_w'("D:\FILENEWWWWWWW\DEMO1\src\cnn_hw_core.sv":51)
+Extracting RAM for identifier 'conv1_b'("D:\FILENEWWWWWWW\DEMO1\src\cnn_hw_core.sv":52)
+Extracting RAM for identifier 'conv2_w'("D:\FILENEWWWWWWW\DEMO1\src\cnn_hw_core.sv":53)
+Extracting RAM for identifier 'conv2_b'("D:\FILENEWWWWWWW\DEMO1\src\cnn_hw_core.sv":54)
+Extracting RAM for identifier 'image_ram'("D:\FILENEWWWWWWW\DEMO1\src\cnn_hw_core.sv":83)
+Compiling module 'gowin_dp_ram_Top'("D:\FILENEWWWWWWW\DEMO1\src\gowin_sdpb\gowin_dp_ram.v":9)
+Compiling module 'conv_pool_2d(OUT_CH=6)'("D:\FILENEWWWWWWW\DEMO1\src\conv_pool_2d.sv":6)
+Compiling module 'conv_pool_2d(IN_H=13,IN_W=13,IN_CH=6,OUT_CH=12)'("D:\FILENEWWWWWWW\DEMO1\src\conv_pool_2d.sv":6)
+Compiling module 'video_pll'("D:\FILENEWWWWWWW\DEMO1\src\gowin_pllvr\video_pll.v":9)
+Compiling module 'Gowin_CLKDIV'("D:\FILENEWWWWWWW\DEMO1\src\gowin_clkdiv\video_clkdiv.v":9)
+Compiling module 'vga_timing'("D:\FILENEWWWWWWW\DEMO1\src\vga_timing.v":3)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("D:\FILENEWWWWWWW\DEMO1\src\vga_timing.v":39)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("D:\FILENEWWWWWWW\DEMO1\src\vga_timing.v":41)
+Compiling module 'osd_display'("D:\FILENEWWWWWWW\DEMO1\src\osd_display.v":2)
+Extracting RAM for identifier 'img_ram'("D:\FILENEWWWWWWW\DEMO1\src\osd_display.v":81)
+Compiling module '**'("D:\FILENEWWWWWWW\DEMO1\src\dvi_tx\dvi_tx.v":1088)
+NOTE  (EX0101) : Current top module is "soc_top"
+[5%] Running netlist conversion ...
+WARN  (CV0020) : Input cam_data[4:3] is unused("D:\FILENEWWWWWWW\DEMO1\src\soc_top.sv":11)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\FILENEWWWWWWW\DEMO1\impl\gwsynthesis\DEMO1.vg" completed
+[100%] Generate report file "D:\FILENEWWWWWWW\DEMO1\impl\gwsynthesis\DEMO1_syn.rpt.html" completed
+GowinSynthesis finish

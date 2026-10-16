@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NSR-4C" package="QFN48P" speed="6" partNumber="GW1NSR-LV4CQN48PC6/I5"/>
+    <FileList>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\I2C_Interface.v" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\OV2640_Controller.v" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\OV2640_Register.v" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\cnn_hw_core.sv" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\conv_pool_2d.sv" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\dvi_tx\dvi_tx.v" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\dvp_capture.v" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\gowin_clkdiv\video_clkdiv.v" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\gowin_empu\core_arm_m3.v" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\gowin_pllvr\gowin_pllvr.v" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\gowin_pllvr\video_pll.v" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\gowin_sdpb\gowin_dp_ram.v" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\image_processor.v" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\osd_display.v" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\soc_top.sv" type="verilog"/>
+        <File path="D:\FILENEWWWWWWW\DEMO1\src\vga_timing.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="D:\FILENEWWWWWWW\DEMO1\impl\gwsynthesis\DEMO1.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="soc_top"/>
+        <Option type="vcc" value="1.2"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

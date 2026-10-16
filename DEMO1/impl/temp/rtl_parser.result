@@ -1,0 +1,160 @@
+[
+ {
+  "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/soc_top.sv",
+  "InstLine" : 2,
+  "InstName" : "soc_top",
+  "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/soc_top.sv",
+  "ModuleLine" : 2,
+  "ModuleName" : "soc_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/soc_top.sv",
+    "InstLine" : 140,
+    "InstName" : "u_empu",
+    "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/gowin_empu/core_arm_m3.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "core_arm_m3_Top"
+   },
+   {
+    "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/soc_top.sv",
+    "InstLine" : 230,
+    "InstName" : "u_dvi_tx",
+    "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/dvi_tx/dvi_tx.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "DVI_TX_Top"
+   },
+   {
+    "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/soc_top.sv",
+    "InstLine" : 25,
+    "InstName" : "u_pll_cam",
+    "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/gowin_pllvr/gowin_pllvr.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_PLLVR"
+   },
+   {
+    "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/soc_top.sv",
+    "InstLine" : 32,
+    "InstName" : "u_ov2640_ctrl",
+    "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/OV2640_Controller.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "OV2640_Controller",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/OV2640_Controller.v",
+      "InstLine" : 72,
+      "InstName" : "LUT",
+      "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/OV2640_Register.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "OV2640_Registers"
+     },
+     {
+      "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/OV2640_Controller.v",
+      "InstLine" : 82,
+      "InstName" : "I2C",
+      "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/I2C_Interface.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "I2C_Interface"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/soc_top.sv",
+    "InstLine" : 67,
+    "InstName" : "u_dvp",
+    "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/dvp_capture.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "dvp_capture"
+   },
+   {
+    "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/soc_top.sv",
+    "InstLine" : 86,
+    "InstName" : "u_img_proc",
+    "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/image_processor.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "image_processor"
+   },
+   {
+    "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/soc_top.sv",
+    "InstLine" : 153,
+    "InstName" : "u_cnn_hw_accelerator",
+    "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/cnn_hw_core.sv",
+    "ModuleLine" : 5,
+    "ModuleName" : "cnn_hw_core",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/cnn_hw_core.sv",
+      "InstLine" : 114,
+      "InstName" : "pool1_ram",
+      "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/gowin_sdpb/gowin_dp_ram.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "gowin_dp_ram_Top"
+     },
+     {
+      "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/cnn_hw_core.sv",
+      "InstLine" : 119,
+      "InstName" : "pool2_ram",
+      "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/gowin_sdpb/gowin_dp_ram.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "gowin_dp_ram_Top"
+     },
+     {
+      "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/cnn_hw_core.sv",
+      "InstLine" : 146,
+      "InstName" : "shared_conv_buf_ram",
+      "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/gowin_sdpb/gowin_dp_ram.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "gowin_dp_ram_Top"
+     },
+     {
+      "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/cnn_hw_core.sv",
+      "InstLine" : 182,
+      "InstName" : "u_conv_pool_1",
+      "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/conv_pool_2d.sv",
+      "ModuleLine" : 6,
+      "ModuleName" : "conv_pool_2d"
+     },
+     {
+      "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/cnn_hw_core.sv",
+      "InstLine" : 196,
+      "InstName" : "u_conv_pool_2",
+      "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/conv_pool_2d.sv",
+      "ModuleLine" : 6,
+      "ModuleName" : "conv_pool_2d"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/soc_top.sv",
+    "InstLine" : 188,
+    "InstName" : "u_video_pll",
+    "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/gowin_pllvr/video_pll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "video_pll"
+   },
+   {
+    "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/soc_top.sv",
+    "InstLine" : 193,
+    "InstName" : "u_video_clkdiv",
+    "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/gowin_clkdiv/video_clkdiv.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/soc_top.sv",
+    "InstLine" : 202,
+    "InstName" : "u_vga_timing",
+    "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/vga_timing.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "vga_timing"
+   },
+   {
+    "InstFile" : "D:/FILENEWWWWWWW/DEMO1/src/soc_top.sv",
+    "InstLine" : 214,
+    "InstName" : "u_osd",
+    "ModuleFile" : "D:/FILENEWWWWWWW/DEMO1/src/osd_display.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "osd_display"
+   }
+  ]
+ }
+]

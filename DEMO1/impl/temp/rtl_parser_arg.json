@@ -1,0 +1,77 @@
+{
+ "Device" : "GW1NSR-4C",
+ "Files" : [
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/I2C_Interface.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/OV2640_Controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/OV2640_Register.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/cnn_hw_core.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/conv_pool_2d.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/dvi_tx/dvi_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/dvp_capture.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/gowin_clkdiv/video_clkdiv.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/gowin_empu/core_arm_m3.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/gowin_pllvr/gowin_pllvr.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/gowin_pllvr/video_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/gowin_sdpb/gowin_dp_ram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/image_processor.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/osd_display.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/soc_top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/FILENEWWWWWWW/DEMO1/src/vga_timing.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/FILENEWWWWWWW/DEMO1/impl/temp/rtl_parser.result",
+ "Top" : "soc_top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

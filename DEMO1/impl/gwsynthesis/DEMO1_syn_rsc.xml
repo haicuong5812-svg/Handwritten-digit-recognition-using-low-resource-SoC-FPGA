@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="soc_top" Register="146" Alu="69" Lut="436" Bsram="1" T_Register="1025(146)" T_Alu="1686(69)" T_Lut="2266(436)" T_Bsram="8(1)">
+ <SubModule name="u_pll_cam"/>
+ <SubModule name="u_ov2640_ctrl" Register="47" Alu="42" Lut="27" T_Register="129(47)" T_Alu="50(42)" T_Lut="122(27)" T_Bsram="1(0)">
+  <SubModule name="LUT" Register="9" Alu="8" Lut="1" Bsram="1" T_Register="9(9)" T_Alu="8(8)" T_Lut="1(1)" T_Bsram="1(1)"/>
+  <SubModule name="I2C" Register="73" Lut="94" T_Register="73(73)" T_Lut="94(94)"/>
+ </SubModule>
+ <SubModule name="u_dvp" Register="11" Lut="2" T_Register="11(11)" T_Lut="2(2)"/>
+ <SubModule name="u_img_proc" Register="50" Alu="26" Lut="47" T_Register="50(50)" T_Alu="26(26)" T_Lut="47(47)"/>
+ <SubModule name="u_cnn_hw_accelerator" Register="37" Lut="122" Bsram="2" T_Register="560(37)" T_Alu="1486(0)" T_Lut="1315(122)" T_Bsram="5(2)">
+  <SubModule name="pool1_ram" Bsram="1" T_Bsram="1(1)"/>
+  <SubModule name="pool2_ram" Bsram="1" T_Bsram="1(1)"/>
+  <SubModule name="shared_conv_buf_ram" Bsram="1" T_Bsram="1(1)"/>
+  <SubModule name="u_conv_pool_1" Register="259" Alu="696" Lut="587" T_Register="259(259)" T_Alu="696(696)" T_Lut="587(587)"/>
+  <SubModule name="u_conv_pool_2" Register="264" Alu="790" Lut="606" T_Register="264(264)" T_Alu="790(790)" T_Lut="606(606)"/>
+ </SubModule>
+ <SubModule name="u_video_pll"/>
+ <SubModule name="u_video_clkdiv"/>
+ <SubModule name="u_vga_timing" Register="20" Lut="44" T_Register="20(20)" T_Lut="44(44)"/>
+ <SubModule name="u_osd" Register="109" Alu="55" Lut="300" Bsram="1" T_Register="109(109)" T_Alu="55(55)" T_Lut="300(300)" T_Bsram="1(1)"/>
+</Module>
